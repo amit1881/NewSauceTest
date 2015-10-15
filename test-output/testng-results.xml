@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="14" failed="0" total="14" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1533" started-at="2015-10-15T14:09:50Z" finished-at="2015-10-15T14:09:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1533" started-at="2015-10-15T14:09:50Z" finished-at="2015-10-15T14:09:52Z">
+      <class name="SeleniumIntegration.MavenDemo.DoTwitterPost">
+        <test-method status="FAIL" signature="launchapp(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="launchapp" is-config="true" duration-ms="0" started-at="2015-10-15T19:39:50Z" finished-at="2015-10-15T19:39:50Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method launchapp but has not been marked @Optional or defined
+in C:\Users\amit\AppData\Local\Temp\testng-eclipse-2050718100\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method launchapp but has not been marked @Optional or defined
+in C:\Users\amit\AppData\Local\Temp\testng-eclipse-2050718100\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="11" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[There once was a speedy Hare who bragged about how fast he could run.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tired of hearing him boast, the Tortoise challenged him to a race.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All the animals in the forest gathered to watch.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Hare ran down the road for a while and then and paused to rest.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[He looked back at the tortoise and cried out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[How do you expect to win this race when you are walking along at your slow, slow pace?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Hare stretched himself out alongside the road and fell asleep, thinking]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[There is plenty of time to relax]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Tortoise walked and walked; never ever stopping until he came to the finish line.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The animals who were watching cheered so loudly for Tortoise]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="0" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Hare stretched and yawned and began to run again]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tortoise was already over the line.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SLOW AND STEADY WINS THE RACE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="LoginTest(java.lang.String)[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="LoginTest" duration-ms="1" started-at="2015-10-15T19:39:52Z" data-provider="myMessage" finished-at="2015-10-15T19:39:52Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="SKIP" signature="terminatetest()[pri:0, instance:SeleniumIntegration.MavenDemo.DoTwitterPost@1f4f00f]" name="terminatetest" is-config="true" duration-ms="0" started-at="2015-10-15T19:39:52Z" finished-at="2015-10-15T19:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminatetest -->
+      </class> <!-- SeleniumIntegration.MavenDemo.DoTwitterPost -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

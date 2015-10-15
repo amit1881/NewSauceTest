@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">ChromeTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">14</td><td class="numi">0</td><td class="numi">7.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">FirefoxTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">14</td><td class="numi">0</td><td class="numi">7.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">28</td><td class="numi">0</td><td class="numi">7.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m1"><b>launchapp</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m2"><b>terminatetest</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">ChromeTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="14">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m3"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m4"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m5"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m6"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m7"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m8"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m9"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m10"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m11"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m12"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m13"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m14"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m15"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr><tr class="skippedodd"><td><a href="#m16"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">29</td></tr>
+<tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m17"><b>launchapp</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m18"><b>terminatetest</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="14">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m19"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m20"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m21"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m22"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m23"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m24"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m25"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m26"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m27"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m28"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m29"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m30"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m31"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr><tr class="skippedodd"><td><a href="#m32"><b>LoginTest</b>  </a></td><td class="numi">14</td><td class="numi">7</td></tr>
+</table>
+<h1>ChromeTest</h1>
+<a id="m1"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:launchapp</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">chrome</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:84)
+<br/>18 lines not shown
+<p>Caused by Connect to localhost:5557 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:84)
+<br/>18 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+<br/>at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:84)
+<br/>18 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:terminatetest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tired of hearing him boast, the Tortoise challenged him to a race.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">He looked back at the tortoise and cried out</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare ran down the road for a while and then and paused to rest.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched himself out alongside the road and fell asleep, thinking</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The animals who were watching cheered so loudly for Tortoise</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There once was a speedy Hare who bragged about how fast he could run.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">How do you expect to win this race when you are walking along at your slow, slow pace?</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">SLOW AND STEADY WINS THE RACE</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">All the animals in the forest gathered to watch.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Tortoise walked and walked; never ever stopping until he came to the finish line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched and yawned and began to run again</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tortoise was already over the line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There is plenty of time to relax</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>FirefoxTest</h1>
+<a id="m17"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:launchapp</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">firefox</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:53)
+<br/>18 lines not shown
+<p>Caused by Connect to localhost:5555 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:53)
+<br/>18 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+<br/>at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+<br/>at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.launchapp(DoTwitterPost.java:53)
+<br/>18 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:terminatetest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tortoise was already over the line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There once was a speedy Hare who bragged about how fast he could run.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There is plenty of time to relax</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">How do you expect to win this race when you are walking along at your slow, slow pace?</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">He looked back at the tortoise and cried out</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched and yawned and began to run again</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tired of hearing him boast, the Tortoise challenged him to a race.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Tortoise walked and walked; never ever stopping until he came to the finish line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">SLOW AND STEADY WINS THE RACE</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">All the animals in the forest gathered to watch.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched himself out alongside the road and fell asleep, thinking</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The animals who were watching cheered so loudly for Tortoise</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare ran down the road for a while and then and paused to rest.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
